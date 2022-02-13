@@ -25,7 +25,6 @@ const Problem = () => {
             </p>
           </div>
         </div>
-        
 
         <div className="problem__cardsDiv  card" style={{ width: "22rem" }}>
           <img src={Problem6} className="card-img-top" alt="..." height={"200px"}/>

@@ -18,7 +18,7 @@ const LandingPage = () => {
             </div>
             <div className="landingPage__heading">Alveoli</div>
             <div className="landingPage__subHeading">
-              <p>Online X-ray Centre</p>
+              <p>X-RAY Results at Home</p>
             </div>
             <div className="landingPage__checkBtn">
                 <Link to="/upload" className="landingPage__checkBtnLink">Check your X-ray</Link>
