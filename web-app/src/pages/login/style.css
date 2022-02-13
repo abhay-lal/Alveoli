@@ -1,0 +1,67 @@
+
+
+.outer .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.outer h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.login__container {
+  margin: 3rem auto;
+  margin-top: 4.5rem;
+  width: 40%;
+  background: #d8efed;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.login__inputDiv {
+  margin: 1rem 0;
+}
+
+.login__btn {
+  background: #064848;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+
+.login__btn:hover {
+  background: #d8efed;
+  color: #000;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 1250px) {
+  .login__container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login__container {
+    width: 100%;
+  }
+}
