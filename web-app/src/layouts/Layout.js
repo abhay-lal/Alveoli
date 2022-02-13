@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment } from "react/cjs/react.production.min";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
 
